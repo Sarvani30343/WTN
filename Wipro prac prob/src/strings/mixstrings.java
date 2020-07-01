@@ -12,7 +12,7 @@ public class mixstrings {
 			stbuild.append(a.charAt(i));
 			stbuild.append(b.charAt(i));
 		}
-		// only 1 for loop will actually run
+		
 		for(; i < aLen; i++)
 			stbuild.append(a.charAt(i));
 		for(; i < bLen; i++)
